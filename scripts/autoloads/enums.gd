@@ -4,5 +4,12 @@ enum ColorEnum {
 	WHITE = 0,
 	RED = 1,
 	BLUE = 2,
-	BLACK = 3,
+	GREEN = 3,
+	PINK = 4,
+}
+
+enum Perspective {
+	TRANSITIONING = 0,
+	SIDESCROLLER = 1,
+	TOPDOWN = 2
 }

@@ -1,16 +1,16 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1774118626
+::res://::1774121307
 icon.svg::CompressedTexture2D::8246026783399145107::1773724693::1773724693::1::::<><><>0<>0<>0651a0d6f7bd65fc7db3ad227be14723<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1773724693::0::1::::<><><>0<>0<><>::
 ::res://assets/::1773724803
-::res://scenes/::1774118727
+::res://scenes/::1774122124
 Player.tscn::PackedScene::6257843075920109200::1774118582::0::1::::<><><>0<>0<><>::uid://dhmcvuwila2rt::::res://scripts/player.gd
-test_level.tscn::PackedScene::7325839874051999317::1774118727::0::1::::<><><>0<>0<><>::uid://cvfl046lxgtlo::::res://scenes/Player.tscn
-::res://scripts/::1774118607
-camera_3d.gd::GDScript::6151976460930790335::1774117455::0::1::::<>Camera3D<><>0<>0<><>::
-game.gd::GDScript::7295855715982406558::1773730490::0::1::::Game<>Node3D<><>0<>0<><>::
-player.gd::GDScript::7675516510082697841::1774118607::0::1::::Player<>CharacterBody3D<><>0<>0<><>::
-room_builder.gd::GDScript::158035299078120316::1774065987::0::1::::RoomBuilder<>Node<><>0<>1<><>::
-::res://scripts/autoloads/::1773730423
-color_manager.gd::GDScript::526270902022023324::1773730423::0::1::::<>Node<><>0<>0<><>::
-enums.gd::GDScript::7611242599067011993::1773730227::0::1::::<>Node<><>0<>0<><>::
+test_level.tscn::PackedScene::7325839874051999317::1774122124::0::1::::<><><>0<>0<><>::uid://ctxcatlrah1tb::::res://scripts/game.gd<>uid://cvfl046lxgtlo::::res://scenes/Player.tscn<>uid://b6wkykip0ycs8::::res://scripts/game_surface_component.gd<>uid://b5iqr82tx4yxl::::res://scripts/game_camera.gd
+::res://scripts/::1774121797
+game.gd::GDScript::6154032534546934535::1774121797::0::1::::Game<>Node3D<><>0<>0<><>::
+game_camera.gd::GDScript::4509604621122648561::1774121698::0::1::::GameCamera<>Camera3D<><>0<>0<><>::
+game_surface_component.gd::GDScript::4608341714350624957::1774119859::0::1::::GameSurfaceComponent<>CSGBox3D<><>0<>0<><>::
+player.gd::GDScript::7675516510082697841::1774121071::0::1::::Player<>CharacterBody3D<><>0<>0<><>::
+::res://scripts/autoloads/::1774121480
+colour state.gd::GDScript::526270902022023324::1774120293::0::1::::<>Node<><>0<>0<><>::
+enums.gd::GDScript::7611242599067011993::1774121480::0::1::::<>Node<><>0<>0<><>::
