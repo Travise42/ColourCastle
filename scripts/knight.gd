@@ -1,7 +1,6 @@
 extends Node3D
 
-# recursively make all subnodes that are MeshInstance3D to be black
-func make_black(node: Node):
+func make_black(node: Node) -> void:
 	if node is MeshInstance3D:
 		var mat := StandardMaterial3D.new()
 		mat.albedo_color = Color.BLACK

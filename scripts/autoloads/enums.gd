@@ -13,3 +13,5 @@ enum Perspective {
 	SIDESCROLLER = 1,
 	TOPDOWN = 2
 }
+
+var starting_perspective: Perspective = Perspective.SIDESCROLLER

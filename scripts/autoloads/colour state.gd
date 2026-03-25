@@ -1,8 +1,8 @@
 extends Node
 
 var color_dictionary: Dictionary[Enums.ColorEnum, Color] = {
-	Enums.ColorEnum.WHITE: Color.WHITE,
-	Enums.ColorEnum.RED: Color.INDIAN_RED,
+	Enums.ColorEnum.WHITE: Color(1, 1, 1),
+	Enums.ColorEnum.RED: Color(1, 0, 0.3),
 	Enums.ColorEnum.BLUE: Color.SKY_BLUE,
 	Enums.ColorEnum.GREEN: Color.PALE_GREEN,
 	Enums.ColorEnum.PINK: Color.PINK,
