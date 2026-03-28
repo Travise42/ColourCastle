@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://co3gklgykm7us"]
 
 [ext_resource type="PackedScene" uid="uid://csh8xq2dklj3n" path="res://scenes/base_level.tscn" id="1_isitq"]
-[ext_resource type="PackedScene" uid="uid://cvfl046lxgtlo" path="res://scenes/Player.tscn" id="2_45a0w"]
+[ext_resource type="PackedScene" uid="uid://cvfl046lxgtlo" path="res://scenes/player.tscn" id="2_45a0w"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_isitq"]
 albedo_color = Color(1, 0, 0.3, 1)
@@ -23,9 +23,8 @@ albedo_texture_force_srgb = true
 [node name="BaseLevel" parent="." unique_id=675096666 instance=ExtResource("1_isitq")]
 
 [node name="AlexYardley" parent="BaseLevel" unique_id=1548424580 node_paths=PackedStringArray("game") instance=ExtResource("2_45a0w")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.714247, 3, 11)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.714247, 15, 26)
 speed = 15.0
-jump_velocity = 13.0
 game = NodePath("..")
 
 [node name="CSGBox3D6" type="CSGBox3D" parent="BaseLevel" unique_id=667953072]

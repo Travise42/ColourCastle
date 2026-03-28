@@ -3,7 +3,7 @@ extends Node
 enum ColorEnum {
 	WHITE = 0,
 	RED = 1,
-	BLUE = 2,
+	YELLOW = 2,
 	GREEN = 3,
 	PINK = 4,
 }
