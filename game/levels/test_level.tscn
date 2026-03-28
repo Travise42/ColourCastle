@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://dcmxrolv76w6h"]
 
-[ext_resource type="Script" uid="uid://ctxcatlrah1tb" path="res://scripts/game.gd" id="1_paw1w"]
-[ext_resource type="PackedScene" uid="uid://cvfl046lxgtlo" path="res://scenes/player.tscn" id="1_w7t1t"]
-[ext_resource type="Script" uid="uid://b6wkykip0ycs8" path="res://scripts/game_surface_component.gd" id="2_j6w7d"]
-[ext_resource type="Script" uid="uid://b5iqr82tx4yxl" path="res://scripts/game_camera.gd" id="4_x4b8f"]
+[ext_resource type="Script" uid="uid://ctxcatlrah1tb" path="res://game/game.gd" id="1_paw1w"]
+[ext_resource type="PackedScene" uid="uid://cvfl046lxgtlo" path="res://player/player.tscn" id="1_w7t1t"]
+[ext_resource type="Script" uid="uid://b6wkykip0ycs8" path="res://game/game_surface_component.gd" id="2_j6w7d"]
+[ext_resource type="Script" uid="uid://b5iqr82tx4yxl" path="res://game/game_camera.gd" id="4_x4b8f"]
 
 [sub_resource type="Environment" id="Environment_w7t1t"]
 ambient_light_source = 2
