@@ -7,7 +7,7 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_b3a34"]
 size = Vector3(1, 4, 2)
 
-[node name="AlexYardley" type="CharacterBody3D" unique_id=1548424580 node_paths=PackedStringArray("collision_shape", "visual_model")]
+[node name="Player" type="CharacterBody3D" unique_id=1548424580 node_paths=PackedStringArray("collision_shape", "visual_model")]
 script = ExtResource("1_p0vlq")
 speed = 20.0
 jump_velocity = 13.0

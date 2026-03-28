@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://chcbrtx5d1tty"]
 
-[ext_resource type="Script" uid="uid://bgc5w6to7llkg" path="res://game/level_connector.gd" id="1_ch2od"]
+[ext_resource type="Script" uid="uid://bgc5w6to7llkg" path="res://game/level_connectors/level_connector.gd" id="1_ch2od"]
 [ext_resource type="Shader" uid="uid://bmarwbraxtpfo" path="res://shaders/new_shader.gdshader" id="2_cjiq3"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_dppgv"]
