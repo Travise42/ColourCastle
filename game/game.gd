@@ -4,7 +4,7 @@
 extends Node3D
 class_name Game
 
-@onready var background_color_enum: Enums.ColorEnum = Enums.ColorEnum.WHITE
+@onready var background_color_enum: ColorManager.ColorEnum = ColorManager.ColorEnum.WHITE
 @onready var perspective: Enums.Perspective = Enums.starting_perspective:
 	set(new_perspective):
 		perspective = new_perspective
@@ -23,6 +23,7 @@ signal change_perspective(new_perspective: Enums.Perspective)
 func _ready() -> void:
 	assert(floor_plane)
 	assert(wall_plane)
+	assert(game_camera)
 	floor_plane.change_color(background_color_enum)
 	wall_plane.change_color(background_color_enum)
 

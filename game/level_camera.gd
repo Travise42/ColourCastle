@@ -1,6 +1,6 @@
 extends Camera3D
 
-class_name GameCamera
+class_name LevelCamera
 
 func transition_to_sidescroller() -> void:
 	var tween := create_tween()

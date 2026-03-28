@@ -17,8 +17,9 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-Enums="*uid://dgo7b27kqiatt"
 ColorManager="*uid://hq6uthx07pbo"
+SceneManager="*uid://besq0nv6wubo5"
+GamePerspective="*uid://bb4kle6cglagp"
 
 [input]
 

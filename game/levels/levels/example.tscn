@@ -1,8 +1,8 @@
-[gd_scene format=3 uid="uid://csh8xq2dklj3n"]
+[gd_scene format=3 uid="uid://gthssxq7p5yq"]
 
-[ext_resource type="Script" uid="uid://ctxcatlrah1tb" path="res://game/game.gd" id="1_oox4p"]
-[ext_resource type="Script" uid="uid://b6wkykip0ycs8" path="res://game/level_surface_component.gd" id="2_k2uud"]
-[ext_resource type="Script" uid="uid://b5iqr82tx4yxl" path="res://game/level_camera.gd" id="4_rlct4"]
+[ext_resource type="Script" uid="uid://ctxcatlrah1tb" path="res://game/game.gd" id="1_hrup2"]
+[ext_resource type="Script" uid="uid://b6wkykip0ycs8" path="res://game/level_surface_component.gd" id="2_0o2r0"]
+[ext_resource type="Script" uid="uid://b5iqr82tx4yxl" path="res://game/level_camera.gd" id="3_4vwhi"]
 
 [sub_resource type="Environment" id="Environment_w7t1t"]
 ambient_light_source = 2
@@ -12,7 +12,7 @@ ambient_light_color = Color(0.937243, 0.95971376, 0.99999994, 1)
 albedo_color = Color(1, 1, 0, 1)
 
 [node name="BaseLevel" type="Node3D" unique_id=675096666 node_paths=PackedStringArray("floor_plane", "wall_plane", "game_camera")]
-script = ExtResource("1_oox4p")
+script = ExtResource("1_hrup2")
 raycast_offset = 100.0
 floor_plane = NodePath("FloorPlane")
 wall_plane = NodePath("WallPlane")
@@ -28,7 +28,7 @@ use_collision = true
 collision_layer = 3
 collision_mask = 2
 size = Vector3(100, 0.01, 60)
-script = ExtResource("2_k2uud")
+script = ExtResource("2_0o2r0")
 metadata/_custom_type_script = "uid://b6wkykip0ycs8"
 
 [node name="WallPlane" type="CSGBox3D" parent="." unique_id=1770717440]
@@ -37,7 +37,7 @@ use_collision = true
 collision_layer = 3
 collision_mask = 2
 size = Vector3(100, 60, 0.01)
-script = ExtResource("2_k2uud")
+script = ExtResource("2_0o2r0")
 metadata/_custom_type_script = "uid://b6wkykip0ycs8"
 
 [node name="FloorBoxPlayerRay" type="CSGBox3D" parent="." unique_id=180286314]
@@ -53,5 +53,5 @@ current = true
 fov = 59.2
 size = 30.0
 far = 4005.11
-script = ExtResource("4_rlct4")
+script = ExtResource("3_4vwhi")
 metadata/_custom_type_script = "uid://b5iqr82tx4yxl"
