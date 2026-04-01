@@ -1,6 +1,6 @@
 # every shape in game should be using this script
 
-extends CSGShape3D
+extends CSGMesh3D
 
 class_name LevelObject
 

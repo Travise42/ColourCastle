@@ -12,6 +12,9 @@ var current_scene_enum: SceneManager.SceneEnum
 
 signal loading_complete(node: Node)
 
+func _ready() -> void:
+	set_process(false)
+
 func _process(_delta: float) -> void:
 	# play some kinda animation here
 	

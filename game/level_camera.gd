@@ -5,13 +5,14 @@ extends Camera3D
 
 class_name LevelCamera
 
-@export var position_sidescroller: Vector3
+@export var game_width: float = 50.0
+@onready var position_sidescroller: Vector3
 @onready var position_topdown: Vector3
 
 func _ready() -> void:
+	position_sidescroller = Vector3(0, game_width / 2, game_width)
+	position_topdown = Vector3(0, game_width, game_width / 2)
 	position = position_sidescroller
-	position_topdown.y = position_sidescroller.z
-	position_topdown.z = position_sidescroller.y
 
 func transition_to_sidescroller() -> void:
 	var tween := create_tween()

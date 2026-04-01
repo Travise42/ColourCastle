@@ -7,7 +7,6 @@ extends Node3D
 
 class_name Player
 
-
 @export_group("")
 @export var speed: float = 20.0
 @export var jump_velocity: float = 14.0
@@ -20,6 +19,8 @@ class_name Player
 
 func _ready() -> void:
 	GamePerspective.perspective_change.connect(_on_perspective_change)
+	
+	assert(get_parent() is Level)
 
 
 func _physics_process(delta: float) -> void:
